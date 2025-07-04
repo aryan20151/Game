@@ -1,12 +1,74 @@
-# React + Vite
+# Tic-Tac-Toe Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A classic Tic-Tac-Toe game built with React and Vite. This project demonstrates fundamental React concepts including components, state management, and props.
 
-Currently, two official plugins are available:
+## 🎮 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Classic 3x3 Tic-Tac-Toe gameplay
+- Tracks game status (next player's turn or game result)
+- Highlights the winning combination
+- Reset game functionality
+- Responsive design that works on all devices
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/aryan20151/Tic-Tac-Toe.git
+   cd Tic-Tac-Toe
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser to play the game.
+
+## 🛠️ Built With
+
+- [React](https://reactjs.org/) - JavaScript library for building user interfaces
+- [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - For styling
+
+## 🎨 Project Structure
+
+```
+src/
+├── components/     # Reusable UI components
+│   ├── Board.jsx  # Game board component
+│   ├── Square.jsx # Individual square component
+│   └── Status.jsx # Game status component
+├── App.jsx        # Main application component
+└── main.jsx       # Application entry point
+```
+
+## 🤝 Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📝 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
