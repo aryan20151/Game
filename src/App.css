@@ -20,7 +20,6 @@ body {
 
 .controls input {
   width: 60px;
-  margin-left: 0.5rem;
 }
 
 .board {
@@ -88,4 +87,3 @@ body {
   border: 1px solid #ccc;
   cursor: pointer;
 }
-
